@@ -7,4 +7,4 @@ preview: images/irb-theme-iceberg.png
 
 [https://github.com/ydah/irb-theme-iceberg](https://github.com/ydah/irb-theme-iceberg)
 
-![image](/images/irb-theme-iceberg.png)
+![image](../../../images/irb-theme-iceberg.png)

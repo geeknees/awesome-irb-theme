@@ -5,4 +5,4 @@ preview: images/irb-theme-nord.png
 ---
 
 [https://github.com/skatkov/irb-theme-nord](https://github.com/skatkov/irb-theme-nord)
-![image](/images/irb-theme-nord.png)
+![image](../../../images/irb-theme-nord.png)
