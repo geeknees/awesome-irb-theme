@@ -37,12 +37,16 @@ theme: minima
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+  #   - .sass-cache/
+  #   - .jekyll-cache/
+  #   - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - docs/
+  - .github/
+  - AGENTS.md
+  - README.md
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
