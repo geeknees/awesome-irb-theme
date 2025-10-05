@@ -62,6 +62,7 @@
   font-weight: 600;
   margin-bottom: 0.5rem;
   text-transform: capitalize;
+  color: $color-secondary;
 }
 
 .footer-description {
@@ -73,10 +74,6 @@
   color: $grey-color;
   font-size: 0.85rem;
   margin-bottom: 0;
-}
-
-.footer-summary {
-  color: $color-secondary;
 }
 
 .footer-links-column {
