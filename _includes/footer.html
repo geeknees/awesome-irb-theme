@@ -1,0 +1,23 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="container footer-container">
+      <div class="row">
+        <div class="column column-67 footer-summary">
+          <p class="footer-title">{{ site.title | default: "awesome irb theme" }}</p>
+          <p class="footer-description">
+            {{ site.description | default: "Resources and guidance for building delightful IRB experiences." }}
+          </p>
+          <p class="footer-meta">&copy; {{ site.time | date: "%Y" }} {{ site.title | default: "awesome irb theme" }}.</p>
+        </div>
+        <div class="column column-33 footer-links-column">
+          <h2 class="footer-links-title">Explore</h2>
+          <ul class="footer-links">
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/docs/' | relative_url }}">Docs</a></li>
+            <li><a href="{{ site.github.repository_url | default: 'https://github.com/geeknees/awesome-irb-theme' }}" rel="noopener" target="_blank">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
