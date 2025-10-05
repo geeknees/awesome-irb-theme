@@ -82,6 +82,12 @@
   align-items: flex-end;
   justify-content: center;
   text-align: right;
+
+  @media (max-width: 40rem) {
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 1.5rem;
+  }
 }
 
 .footer-links-title {
